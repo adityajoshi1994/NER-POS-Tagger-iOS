@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A84AA7B621953B5900B26E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84AA7B521953B5900B26E30 /* AppDelegate.swift */; };
+		A84AA7B821953B5900B26E30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84AA7B721953B5900B26E30 /* ViewController.swift */; };
+		A84AA7BB21953B5900B26E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84AA7B921953B5900B26E30 /* Main.storyboard */; };
+		A84AA7BD21953B5D00B26E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84AA7BC21953B5D00B26E30 /* Assets.xcassets */; };
+		A84AA7C021953B5D00B26E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84AA7BE21953B5D00B26E30 /* LaunchScreen.storyboard */; };
+		A84AA7CB21953B5D00B26E30 /* NER_POS_TaggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84AA7CA21953B5D00B26E30 /* NER_POS_TaggerTests.swift */; };
+		A84AA7D621953B5E00B26E30 /* NER_POS_TaggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84AA7D521953B5E00B26E30 /* NER_POS_TaggerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A84AA7C721953B5D00B26E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84AA7AA21953B5900B26E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A84AA7B121953B5900B26E30;
+			remoteInfo = "NER-POS Tagger";
+		};
+		A84AA7D221953B5E00B26E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84AA7AA21953B5900B26E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A84AA7B121953B5900B26E30;
+			remoteInfo = "NER-POS Tagger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A84AA7B221953B5900B26E30 /* NER-POS Tagger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NER-POS Tagger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84AA7B521953B5900B26E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A84AA7B721953B5900B26E30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A84AA7BA21953B5900B26E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A84AA7BC21953B5D00B26E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A84AA7BF21953B5D00B26E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A84AA7C121953B5D00B26E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84AA7C621953B5D00B26E30 /* NER-POS TaggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NER-POS TaggerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84AA7CA21953B5D00B26E30 /* NER_POS_TaggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NER_POS_TaggerTests.swift; sourceTree = "<group>"; };
+		A84AA7CC21953B5D00B26E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84AA7D121953B5E00B26E30 /* NER-POS TaggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NER-POS TaggerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84AA7D521953B5E00B26E30 /* NER_POS_TaggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NER_POS_TaggerUITests.swift; sourceTree = "<group>"; };
+		A84AA7D721953B5E00B26E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A84AA7AF21953B5900B26E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84AA7C321953B5D00B26E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84AA7CE21953B5D00B26E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A84AA7A921953B5900B26E30 = {
+			isa = PBXGroup;
+			children = (
+				A84AA7B421953B5900B26E30 /* NER-POS Tagger */,
+				A84AA7C921953B5D00B26E30 /* NER-POS TaggerTests */,
+				A84AA7D421953B5E00B26E30 /* NER-POS TaggerUITests */,
+				A84AA7B321953B5900B26E30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A84AA7B321953B5900B26E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A84AA7B221953B5900B26E30 /* NER-POS Tagger.app */,
+				A84AA7C621953B5D00B26E30 /* NER-POS TaggerTests.xctest */,
+				A84AA7D121953B5E00B26E30 /* NER-POS TaggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A84AA7B421953B5900B26E30 /* NER-POS Tagger */ = {
+			isa = PBXGroup;
+			children = (
+				A84AA7B521953B5900B26E30 /* AppDelegate.swift */,
+				A84AA7B721953B5900B26E30 /* ViewController.swift */,
+				A84AA7B921953B5900B26E30 /* Main.storyboard */,
+				A84AA7BC21953B5D00B26E30 /* Assets.xcassets */,
+				A84AA7BE21953B5D00B26E30 /* LaunchScreen.storyboard */,
+				A84AA7C121953B5D00B26E30 /* Info.plist */,
+			);
+			path = "NER-POS Tagger";
+			sourceTree = "<group>";
+		};
+		A84AA7C921953B5D00B26E30 /* NER-POS TaggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A84AA7CA21953B5D00B26E30 /* NER_POS_TaggerTests.swift */,
+				A84AA7CC21953B5D00B26E30 /* Info.plist */,
+			);
+			path = "NER-POS TaggerTests";
+			sourceTree = "<group>";
+		};
+		A84AA7D421953B5E00B26E30 /* NER-POS TaggerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A84AA7D521953B5E00B26E30 /* NER_POS_TaggerUITests.swift */,
+				A84AA7D721953B5E00B26E30 /* Info.plist */,
+			);
+			path = "NER-POS TaggerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A84AA7B121953B5900B26E30 /* NER-POS Tagger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84AA7DA21953B5E00B26E30 /* Build configuration list for PBXNativeTarget "NER-POS Tagger" */;
+			buildPhases = (
+				A84AA7AE21953B5900B26E30 /* Sources */,
+				A84AA7AF21953B5900B26E30 /* Frameworks */,
+				A84AA7B021953B5900B26E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NER-POS Tagger";
+			productName = "NER-POS Tagger";
+			productReference = A84AA7B221953B5900B26E30 /* NER-POS Tagger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A84AA7C521953B5D00B26E30 /* NER-POS TaggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84AA7DD21953B5E00B26E30 /* Build configuration list for PBXNativeTarget "NER-POS TaggerTests" */;
+			buildPhases = (
+				A84AA7C221953B5D00B26E30 /* Sources */,
+				A84AA7C321953B5D00B26E30 /* Frameworks */,
+				A84AA7C421953B5D00B26E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84AA7C821953B5D00B26E30 /* PBXTargetDependency */,
+			);
+			name = "NER-POS TaggerTests";
+			productName = "NER-POS TaggerTests";
+			productReference = A84AA7C621953B5D00B26E30 /* NER-POS TaggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A84AA7D021953B5D00B26E30 /* NER-POS TaggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84AA7E021953B5E00B26E30 /* Build configuration list for PBXNativeTarget "NER-POS TaggerUITests" */;
+			buildPhases = (
+				A84AA7CD21953B5D00B26E30 /* Sources */,
+				A84AA7CE21953B5D00B26E30 /* Frameworks */,
+				A84AA7CF21953B5D00B26E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84AA7D321953B5E00B26E30 /* PBXTargetDependency */,
+			);
+			name = "NER-POS TaggerUITests";
+			productName = "NER-POS TaggerUITests";
+			productReference = A84AA7D121953B5E00B26E30 /* NER-POS TaggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A84AA7AA21953B5900B26E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Aditya Joshi";
+				TargetAttributes = {
+					A84AA7B121953B5900B26E30 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A84AA7C521953B5D00B26E30 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A84AA7B121953B5900B26E30;
+					};
+					A84AA7D021953B5D00B26E30 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A84AA7B121953B5900B26E30;
+					};
+				};
+			};
+			buildConfigurationList = A84AA7AD21953B5900B26E30 /* Build configuration list for PBXProject "NER-POS Tagger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A84AA7A921953B5900B26E30;
+			productRefGroup = A84AA7B321953B5900B26E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A84AA7B121953B5900B26E30 /* NER-POS Tagger */,
+				A84AA7C521953B5D00B26E30 /* NER-POS TaggerTests */,
+				A84AA7D021953B5D00B26E30 /* NER-POS TaggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A84AA7B021953B5900B26E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AA7C021953B5D00B26E30 /* LaunchScreen.storyboard in Resources */,
+				A84AA7BD21953B5D00B26E30 /* Assets.xcassets in Resources */,
+				A84AA7BB21953B5900B26E30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84AA7C421953B5D00B26E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84AA7CF21953B5D00B26E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A84AA7AE21953B5900B26E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AA7B821953B5900B26E30 /* ViewController.swift in Sources */,
+				A84AA7B621953B5900B26E30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84AA7C221953B5D00B26E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AA7CB21953B5D00B26E30 /* NER_POS_TaggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84AA7CD21953B5D00B26E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AA7D621953B5E00B26E30 /* NER_POS_TaggerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A84AA7C821953B5D00B26E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A84AA7B121953B5900B26E30 /* NER-POS Tagger */;
+			targetProxy = A84AA7C721953B5D00B26E30 /* PBXContainerItemProxy */;
+		};
+		A84AA7D321953B5E00B26E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A84AA7B121953B5900B26E30 /* NER-POS Tagger */;
+			targetProxy = A84AA7D221953B5E00B26E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A84AA7B921953B5900B26E30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84AA7BA21953B5900B26E30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A84AA7BE21953B5D00B26E30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84AA7BF21953B5D00B26E30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A84AA7D821953B5E00B26E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A84AA7D921953B5E00B26E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A84AA7DB21953B5E00B26E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NER-POS Tagger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aj.NER-POS-Tagger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A84AA7DC21953B5E00B26E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NER-POS Tagger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aj.NER-POS-Tagger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A84AA7DE21953B5E00B26E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NER-POS TaggerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aj.NER-POS-TaggerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NER-POS Tagger.app/NER-POS Tagger";
+			};
+			name = Debug;
+		};
+		A84AA7DF21953B5E00B26E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NER-POS TaggerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aj.NER-POS-TaggerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NER-POS Tagger.app/NER-POS Tagger";
+			};
+			name = Release;
+		};
+		A84AA7E121953B5E00B26E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NER-POS TaggerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aj.NER-POS-TaggerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NER-POS Tagger";
+			};
+			name = Debug;
+		};
+		A84AA7E221953B5E00B26E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NER-POS TaggerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aj.NER-POS-TaggerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NER-POS Tagger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A84AA7AD21953B5900B26E30 /* Build configuration list for PBXProject "NER-POS Tagger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84AA7D821953B5E00B26E30 /* Debug */,
+				A84AA7D921953B5E00B26E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84AA7DA21953B5E00B26E30 /* Build configuration list for PBXNativeTarget "NER-POS Tagger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84AA7DB21953B5E00B26E30 /* Debug */,
+				A84AA7DC21953B5E00B26E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84AA7DD21953B5E00B26E30 /* Build configuration list for PBXNativeTarget "NER-POS TaggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84AA7DE21953B5E00B26E30 /* Debug */,
+				A84AA7DF21953B5E00B26E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84AA7E021953B5E00B26E30 /* Build configuration list for PBXNativeTarget "NER-POS TaggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84AA7E121953B5E00B26E30 /* Debug */,
+				A84AA7E221953B5E00B26E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A84AA7AA21953B5900B26E30 /* Project object */;
+}
