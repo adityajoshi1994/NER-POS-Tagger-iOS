@@ -14,6 +14,7 @@
 		A84AA7C021953B5D00B26E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84AA7BE21953B5D00B26E30 /* LaunchScreen.storyboard */; };
 		A84AA7CB21953B5D00B26E30 /* NER_POS_TaggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84AA7CA21953B5D00B26E30 /* NER_POS_TaggerTests.swift */; };
 		A84AA7D621953B5E00B26E30 /* NER_POS_TaggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84AA7D521953B5E00B26E30 /* NER_POS_TaggerUITests.swift */; };
+		A8E41D9E21B0E91900B74F97 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E41D9D21B0E91900B74F97 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A84AA7D121953B5E00B26E30 /* NER-POS TaggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NER-POS TaggerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84AA7D521953B5E00B26E30 /* NER_POS_TaggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NER_POS_TaggerUITests.swift; sourceTree = "<group>"; };
 		A84AA7D721953B5E00B26E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E41D9D21B0E91900B74F97 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A84AA7B521953B5900B26E30 /* AppDelegate.swift */,
 				A84AA7B721953B5900B26E30 /* ViewController.swift */,
+				A8E41D9D21B0E91900B74F97 /* TableViewCell.swift */,
 				A84AA7B921953B5900B26E30 /* Main.storyboard */,
 				A84AA7BC21953B5D00B26E30 /* Assets.xcassets */,
 				A84AA7BE21953B5D00B26E30 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E41D9E21B0E91900B74F97 /* TableViewCell.swift in Sources */,
 				A84AA7B821953B5900B26E30 /* ViewController.swift in Sources */,
 				A84AA7B621953B5900B26E30 /* AppDelegate.swift in Sources */,
 			);
@@ -433,7 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGM4B4898X;
 				INFOPLIST_FILE = "NER-POS Tagger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,7 +447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "aj.NER-POS-Tagger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,7 +456,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGM4B4898X;
 				INFOPLIST_FILE = "NER-POS Tagger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "aj.NER-POS-Tagger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
